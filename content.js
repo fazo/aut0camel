@@ -8,11 +8,11 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/ bring/gi, 'camel');
-            replacedText = replacedText.replace(/ brought/gi, 'cameled');
-            replacedText = replacedText.replace(/ get/gi, 'camel');
-            replacedText = replacedText.replace(/ got/gi, 'cameled');
-            replacedText = replacedText.replace(/ gotten/gi, 'cameled');
+            var replacedText = text.replace(/ bring/gi, ' camel');
+            replacedText = replacedText.replace(/ brought/gi, ' cameled');
+            replacedText = replacedText.replace(/ get/gi, ' camel');
+            replacedText = replacedText.replace(/ got/gi, ' cameled');
+            replacedText = replacedText.replace(/ gotten/gi, ' cameled');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
