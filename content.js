@@ -1,4 +1,4 @@
-//aut0camel v 0.0.2
+//aut0camel v 0.0.3
 
 var elements = document.getElementsByTagName('*');
 
