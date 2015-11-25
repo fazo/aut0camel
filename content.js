@@ -1,4 +1,5 @@
-//aut0camel v 0.0.3
+//aut0camel v 0.0.4
+
 var elements = document.getElementsByTagName('*');
 
 for (var i = 0; i < elements.length; i++) {
