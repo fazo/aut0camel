@@ -13,6 +13,7 @@ for (var i = 0; i < elements.length; i++) {
             replacedText = replacedText.replace(/\bbrought/gi, 'cameled');
             replacedText = replacedText.replace(/\bget/gi, 'camel');
             replacedText = replacedText.replace(/\bgot/gi, 'cameled');
+            replacedText = replacedText.replace(/\bgetting/gi, 'cameling');
             replacedText = replacedText.replace(/\bgotten/gi, 'cameled');
             replacedText = replacedText.replace(/\bboss/gi, 'b0ss');
             replacedText = replacedText.replace(/\bnews/gi, 'memes');
