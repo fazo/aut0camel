@@ -10,10 +10,10 @@ for (var i = 0; i < elements.length; i++) {
         if (node.nodeType === 3) {
             var text = node.nodeValue;
             var replacedText = text.replace(/\bbring/gi, 'camel');
+            replacedText = replacedText.replace(/\bgetting/gi, 'cameling');
             replacedText = replacedText.replace(/\bbrought/gi, 'cameled');
             replacedText = replacedText.replace(/\bget/gi, 'camel');
             replacedText = replacedText.replace(/\bgot/gi, 'cameled');
-            replacedText = replacedText.replace(/\bgetting/gi, 'cameling');
             replacedText = replacedText.replace(/\bgotten/gi, 'cameled');
             replacedText = replacedText.replace(/\bboss/gi, 'b0ss');
             replacedText = replacedText.replace(/\bnews/gi, 'memes');
