@@ -18,6 +18,7 @@ for (var i = 0; i < elements.length; i++) {
             replacedText = replacedText.replace(/\bboss/gi, 'b0ss');
             replacedText = replacedText.replace(/\bnews/gi, 'memes');
             replacedText = replacedText.replace(/\bfaso/gi, 'fatboi');
+            replacedText = replacedText.replace(/\bcamelta/gi, 'gotta');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
