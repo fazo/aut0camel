@@ -17,6 +17,11 @@ for (var i = 0; i < elements.length; i++) {
             replacedText = replacedText.replace(/\bgotten/gi, 'cameled');
             replacedText = replacedText.replace(/\bboss/gi, 'b0ss');
             replacedText = replacedText.replace(/\bnews/gi, 'memes');
+            replacedText = replacedText.replace(/\bfaso/gi, 'fatboi');
+            replacedText = replacedText.replace(/\bcamelta/gi, 'gotta');
+            replacedText = replacedText.replace(/\b tight, /gi, ' tight, unlike ur mom\'s vag, ');
+            replacedText = replacedText.replace(/\b tight /gi, ' tight, unlike ur mom\'s vag, ');
+            replacedText = replacedText.replace(/\b tight./gi, ' tight, unlike ur mom\'s vag.');
             replacedText = replacedText.replace(/\b tight /gi, ' tight, unlike ur moms vag, ');
             replacedText = replacedText.replace(/\bclick/gi, 'boop');
 
