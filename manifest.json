@@ -1,8 +1,10 @@
 {
 "manifest_version": 2,
-    "name": "[aut0camel]",
-    "description": "[camel ur br0vser]",
-    "version": "0.1",
+    "name": "Autocamel",
+    "description": "More camels in your browser",
+    "version": "0.25",
+    "icons": { "48": "icon-48.png",
+          "128": "icon-128.png" },
     "content_scripts": [
         {
             "matches": [
